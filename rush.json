@@ -336,6 +336,18 @@
    * 3. It's useful to have a centralized inventory of all projects and their important metadata.
    */
   "projects": [
+    {
+      "packageName": "@boardgames/game-protocol",
+      "projectFolder": "packages/game-protocol"
+    },
+    {
+      "packageName": "@boardgames/api-client",
+      "projectFolder": "packages/api-client"
+    },
+    {
+      "packageName": "@boardgames/ui",
+      "projectFolder": "packages/ui"
+    },
     // {
     //   /**
     //    * The NPM package name of the project (must match package.json)

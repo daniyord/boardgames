@@ -1,0 +1,16 @@
+{
+  "name": "@boardgames/game-protocol",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Shared WebSocket game protocol message types",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "scripts": {
+    "build": "tsc -p .",
+    "clean": "rimraf lib"
+  },
+  "devDependencies": {
+    "typescript": "~5.6.3",
+    "rimraf": "~6.0.1"
+  }
+}
