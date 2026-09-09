@@ -1,0 +1,8 @@
+{
+  "files.associations": {
+    "rush.json": "jsonc",
+    "**/config/rush/*.json": "jsonc",
+    "**/config/rush-plugins/*.json": "jsonc",
+    ".pnpmfile.cjs": "javascript"
+  }
+}
