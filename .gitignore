@@ -107,6 +107,7 @@ common/temp/
 common/autoinstallers/*/.npmrc
 **/.rush/temp/
 *.lock
+!uv.lock
 
 # Common toolchain intermediate files
 temp/
@@ -124,3 +125,11 @@ dist-storybook/
 # Heft temporary files
 .cache/
 .heft/
+
+# Python (apps/api)
+__pycache__/
+*.py[cod]
+.venv/
+.ruff_cache/
+.mypy_cache/
+.pytest_cache/
